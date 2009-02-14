@@ -9,6 +9,7 @@ title: Installing Merb 1.0
 I saw that merb 1.0 came out and decided to install it. I jumped, nay leaped to the terminal and ran `sudo gem install merb`.
 
 In the terminal I saw the following:
+
     Successfully installed extlib-0.9.8
     Successfully installed abstract-1.0.0
     Successfully installed erubis-2.6.2

@@ -9,7 +9,7 @@ title: Rubygems in your HOME directory, a 5 second guide.
 It seems you are finally ready to let your gems live only in your *HOME* directory.  I'll show you the ropes.
 
 1. First, stop typing `sudo gem whatever`, all the cool kids type `gem whatever`.
-2. Now, make sure you export *GEM_HOME*.   
+2. Add the following export to your zsh or bash config.
 3. For ruby 1.8x it would be something like `export GEM_HOME=~/.gem/ruby/1.8`
 4. For 1.9.1 it would be `export GEM_HOME=~/.gem/ruby/1.9.1`
 
