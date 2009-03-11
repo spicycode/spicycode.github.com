@@ -82,13 +82,12 @@ ul.posts span {
   font-size: 110%;
   text-align: justify;
   width: 40em;
-  margin: 3em auto 2em auto;
+  margin: 1em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
   color: #a00;
-  font-weight: bold;
   margin-bottom: 2em;
 }
 
@@ -153,6 +152,10 @@ ul.posts span {
 }
 
 /* standard */
+
+#post h1 {
+  font-size: 120%;
+}
 
 #post pre {
   border: 1px solid #ddd;
