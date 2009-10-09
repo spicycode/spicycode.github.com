@@ -27,6 +27,7 @@ Make sure your jeweler config in your *Rakefile* looks something like the follow
 
 
 Now it's as easy as typing:
+
     # If you have never released before
     rake version write MAJOR=0 MINOR=1 PATCH=0
     # If you are back for more, releasing again
@@ -34,10 +35,12 @@ Now it's as easy as typing:
 
 
 You now have an updated gemspec, and with the version set correctly.  Now to tag the release on github.
+
     rake release
 
 
 Finally, release it to [GemCutter](http://gemcutter.com) using:
+
     rake gemcutter:release 
 
 ## The users are at the gates, and they demand documentation!
