@@ -157,3 +157,8 @@ footer div {
   text-align: center;
   font-size: 60%;
 }
+
+img.awesome-image {
+  display: block;
+  margin: 0 auto;
+}
