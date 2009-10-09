@@ -8,7 +8,7 @@ title: Speeding up port install
 
 I've been doing a lot of software installation via [macports](http://macports.org) recently and I wanted to make sure things were building as fast as they could.  After reading through the macports FAQ I found a few easy steps for speeding up installations.
 
-# Install ccache
+## Install ccache
 
 From the **ccache** homepage:
 
@@ -18,8 +18,7 @@ To use **ccache** port install it by typing:
 
     sudo port install ccache
     
-<br />    
-# Tweak your macports.conf
+## Tweak your macports.conf
 
 We will need to edit a few settings in our **macports.conf** to enable ccache, and to make builds faster.   First open **macports.conf** in your editor of choice.
 
