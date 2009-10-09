@@ -25,14 +25,17 @@ Make sure your jeweler config in your *Rakefile* looks something like the follow
       puts "Jeweler not available. Install it with: gem install jeweler"
     end
 
+
 Now it's as easy as typing:
     # If you have never released before
     rake version write MAJOR=0 MINOR=1 PATCH=0
     # If you are back for more, releasing again
     rake version:bump:(major|minor|patch)
 
+
 You now have an updated gemspec, and with the version set correctly.  Now to tag the release on github.
     rake release
+
 
 Finally, release it to [GemCutter](http://gemcutter.com) using:
     rake gemcutter:release 
