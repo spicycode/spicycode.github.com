@@ -67,9 +67,11 @@ Open your *Rakefile* back up and put this at the bottom:
     end
 
 To generate the docs the first time run:
+
     rake pages:init
 
 To rebuild the github pages branch after updates:
+
     rake pages
 
 ## Bask in your amazingness
