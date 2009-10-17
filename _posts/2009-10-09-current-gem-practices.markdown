@@ -50,7 +50,7 @@ The next most awesome thing to do is to add [sdoc](http://github.com/voloko/sdoc
 Open your *Rakefile* back up and put this at the bottom:
 
     begin
-      %w{sdoc sdoc-helpers riscount}.each { |name| gem name }
+      %w{sdoc sdoc-helpers rdiscount}.each { |name| gem name }
       require 'sdoc_helpers'
     rescue LoadError => ex
       puts "sdoc support not enabled:"
@@ -76,4 +76,4 @@ To rebuild the github pages branch after updates:
 
 ## Bask in your amazingness
 
-Now you've done it!  You're the envy of ever ne're-do-well programmer from here to there.   Enjoy!
+Now you've done it!  You're the envy of ever ne'er-do-well programmer from here to there.   Enjoy!
