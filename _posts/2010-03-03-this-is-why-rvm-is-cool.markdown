@@ -29,3 +29,5 @@ Magic! Let’s test this in the real world…
 
     ~/src/codes/internet_superstar /msater > cat .rvmrc
     rvm ree
+
+Want the full scoop?  Check out the docs at http://rvm.beginrescueend.com/workflow/rvmrc/
