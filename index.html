@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Scattered musings</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -23,6 +23,15 @@ layout: default
       &ndash; It helps you find out where a method is defined.
     </li>
     <li>
+      <a href="http://github.com/rspec/meta/">Rspec 2.0</a> 
+      &ndash;  alpha
+    </li>
+    <li>
+      <a href="http://github.com/spicycode/the_metric_system/">The Metric System</a> 
+      <a href="http://spicycode.com/the_metric_system/" class="rdoc">(rdoc)</a> 
+      &ndash;  Metrics, but without extras.
+    </li>
+    <li>
       <a href="http://github.com/spicycode/micronaut/">Micronaut</a> 
       <a href="http://spicycode.com/micronaut/" class="rdoc">(rdoc)</a> 
       &ndash;  A svelte testing framework.
@@ -31,15 +40,6 @@ layout: default
       <a href="http://github.com/spicycode/micronaut-rails/">Micronaut Rails</a> 
       <a href="http://spicycode.com/micronaut-rails/" class="rdoc">(rdoc)</a> 
       &ndash;  Ditto, but with rails.
-    </li>
-    <li>
-      <a href="http://github.com/rspec/meta/">Rspec 2.0</a> 
-      &ndash;  alpha
-    </li>
-    <li>
-      <a href="http://github.com/spicycode/the_metric_system/">The Metric System</a> 
-      <a href="http://spicycode.com/the_metric_system/" class="rdoc">(rdoc)</a> 
-      &ndash;  Metrics, but without extras.
     </li>
   </ul>
 </div>
