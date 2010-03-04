@@ -19,13 +19,13 @@ Put "rvm your-ruby-version" in the file.
 Magic! Let’s test this in the real world…
 
 
-~/src/codes > ruby -v
-*ruby 1.9.2dev (2010-02-25 trunk 26759) [x86_64-darwin10]*
+    ~/src/codes > ruby -v
+    ruby 1.9.2dev (2010-02-25 trunk 26759) [x86_64-darwin10]
 
-~/src/codes > cd internet_superstar
+    ~/src/codes > cd internet_superstar
 
-~/src/codes/internet_superstar /msater > ruby -v
-*ruby 1.8.7 (2009-12-24 patchlevel 248) [i686-darwin10.2.0]*
+    ~/src/codes/internet_superstar /msater > ruby -v
+    ruby 1.8.7 (2009-12-24 patchlevel 248) [i686-darwin10.2.0]
 
-~/src/codes/internet_superstar /msater > cat .rvmrc
-*rvm ree*
+    ~/src/codes/internet_superstar /msater > cat .rvmrc
+    rvm ree
