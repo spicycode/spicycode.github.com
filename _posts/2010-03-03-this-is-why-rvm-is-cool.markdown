@@ -6,15 +6,15 @@ title: This is why RVM is cool
 ================
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-# Step 1 
+## Step 1 
 
 Take a directory, any directory. Sprinkle a *.rvmrc* file in the directory.
 
-# Step 2
+## Step 2
 
 Put "rvm your-ruby-version" in the file.
 
-# Step 3
+## Step 3
 
 Magic! Let’s test this in the real world…
 
