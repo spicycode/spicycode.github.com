@@ -286,6 +286,7 @@ footer p {
   border-radius: 20px;
   margin: 20px 0;
   position: relative;
+  word-wrap: break-word;
 }
 #tweet ul li span {
   font-size: 12px;
